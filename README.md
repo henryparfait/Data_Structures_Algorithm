@@ -1,13 +1,13 @@
-#Sparse Matrix Operations
+Sparse Matrix Operations
 
 
 
-#📝 Overview
+📝 Overview
 
 
 This repository contains a complete implementation of sparse matrix operations in pure Python, adhering to strict academic guidelines. The solution supports loading sparse matrices from files, performing addition/subtraction/multiplication, and saving results - all while optimizing for memory and runtime efficiency.
 
-#📂 Repository Structure
+📂 Repository Structure
 
 
 dsa/sparse_matrix/
@@ -24,10 +24,10 @@ dsa/sparse_matrix/
 │── README.md                 # This file
 
 
-#How It Works
+How It Works
 
 
-##🔢 Input File Format
+🔢 Input File Format
 Matrix files must follow this exact format:
 
 rows=[N]
@@ -35,7 +35,7 @@ cols=[M]
 (row, col, value)
 (row, col, value)
 
-#✨ Features
+✨ Features
 
 Memory Efficient: Uses CSR (Compressed Sparse Row) format
 
@@ -73,7 +73,7 @@ bash
 python -m unittest ../tests/test_sparse.py
 
 
-#📜 Academic Compliance
+📜 Academic Compliance
 
 
 ✅ No external libraries used
@@ -87,7 +87,7 @@ python -m unittest ../tests/test_sparse.py
 ✅ Unit tests included
 
 
-#📝 Sample Walkthrough
+📝 Sample Walkthrough
 
 
 Create input files in /sample_inputs/
@@ -101,11 +101,11 @@ result = SparseMatrix("result.txt")
 print(result.get_element(0, 0))  # Check specific values
 
 
-#🤝 Contributing
+🤝 Contributing
 
 
 While this is an academic assignment, suggestions for improvement are welcome through issues. Please note this implementation must remain library-free.
 
-#📄 License
+📄 License
 
 Academic Use Only - All rights reserved by the course instructors.
