@@ -1,6 +1,6 @@
 import unittest
 import os
-from sparse_matrix import SparseMatrix
+from ..src.sparse_matrix import SparseMatrix
 
 class TestSparseMatrix(unittest.TestCase):
     def setUp(self):
